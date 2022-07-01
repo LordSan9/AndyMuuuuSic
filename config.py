@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
-SESSION_NAME = getenv("SESSION_NAME", "session")
+API_ID = "9153121"
+API_HASH = "6e4da67d7d29311511682ec7243b5140"
+BOT_TOKEN = "5478849224:AAFOpQvBGYmTOIVNBhUcipIR8y4bdcSjMts"
+SESSION_NAME = "AgCLqmEAjEq2zCVbLSUVDNojlWWuz8vn5k6JMbrlbVyyD1TGTHed3nCM3PcUzd0VfxLsBZggfVzTh8mHcS72l-Nmg7s9esjTSGogAqFvWhQmdLIrP29nHi-o8Sh89zO2FrI0PXwHGn0SLqSK20jXIGxtHRag0PrXigQ0EluCeNexAUziBGk5skJE3Zl_iX5Qs3IWLInkVIg7_WrmN9UVKolrfNxt2o6txHoaW155cJ20-mMWBy0JX2mZ9J66JWG7LDmwHljqSTZR9bMD9EegFECmqsqaPS8TA9dSQ1A8S13DkLgtTAdnZtUKJ0TpZMSKYeutqvmX_9qNfZaSjcnfoIMsUUu19gAAAAFG0Ct6AA"
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-ALIVE_NAME = getenv("ALIVE_NAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/lMl10l/lMl10l")
+OWNER_USERNAME = "IIlAndylII"
+ALIVE_NAME = "Andy"
+BOT_USERNAME = "x103x_bot"
+UPSTREAM_REPO = "https://github.com/LordSan9/lMl10l"
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "jepthonsupport")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "jepthon")
+GROUP_SUPPORT = "Z888I"
+UPDATES_CHANNEL = "X_P13"
 
 # database, decorators, handlers mandatory vars
-MONGODB_URL = getenv("MONGODB_URL")
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+MONGODB_URL = "mongodb+srv://ANDY:<password>@cluster0.hcjrr.mongodb.net/?retryWrites=true&w=majority"
+COMMAND_PREFIXES = "!"
+OWNER_ID = "5336448904"
+SUDO_USERS = "5336448904"
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
